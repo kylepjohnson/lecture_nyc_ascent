@@ -98,7 +98,7 @@ def search_parse_write_tweets(query_str,
 
 
     # Set up csv writers
-    file1 = 'tweets_popular.csv'
+    file1 = 'tweets/tweets_popular.csv'
     f1_write_header = False
     if not os.path.isfile(file1):
         f1_write_header = True
@@ -107,7 +107,7 @@ def search_parse_write_tweets(query_str,
     if f1_write_header:
         csv_popular_writer.writeheader()
 
-    file2 = 'tweets_not_popular.csv'
+    file2 = 'tweets/tweets_not_popular.csv'
     f2_write_header = False
     if not os.path.isfile(file2):
         f2_write_header = True
