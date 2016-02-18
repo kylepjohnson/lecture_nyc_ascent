@@ -68,9 +68,15 @@ def parse_twitter_response(twitter_response, min_rts=500, strip_non_ascii=True):
 
         rt_count = result['retweet_count']
 
+<<<<<<< HEAD
         yield {'_tweet_datetime': tweet_datetime,
                '_text': text,
                '_rt_count': rt_count}
+=======
+        yield {'tweet_datetime': tweet_datetime,
+               'text': text,
+               'rt_count': rt_count}
+>>>>>>> 023bcdd17253b1672915b59392f2860bbdbd6ed5
 
 
 def search_parse_write_tweets(query_str,
