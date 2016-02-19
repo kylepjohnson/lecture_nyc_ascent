@@ -22,6 +22,6 @@ These were created on Windows 7 with the multi-platform Anaconda distribution.
 
 The folder `tweets` contains two .csv files, one of popular tweets (more than 500 retweets) and another on unpopular tweets (with fewer than 10 retweets). These were obtained with the script `get_tweets.py`. To use this file, you will need to [obtain authentication tokens](https://apps.twitter.com/) and add them to `config.py`.
 
-`tweets_to_features.ipynb` is a Jupyter notebook which illustrates some NLP basics (e.g., tokenization, stopword filter) and also shows how to extract features from text. When you run all of its commands, it will create a diectory `feature_tables` which keep several feature tables for the popular and unpopular tweets.
+`tweets_to_features.ipynb` is a Jupyter notebook which illustrates some NLP basics (e.g., tokenization, stopword filter) and also shows how to extract features from text (e.g., bag of words). When you run all of its commands, it will create a diectory `feature_tables` which keep several feature tables for the tweets.
 
 The `code_snippets` directory has some simplified code which serve as easy-to-understand examples of what appear in the other notebooks.
