@@ -14,7 +14,7 @@ These were created on Windows 7 with the multi-platform Anaconda distribution.
 
 ## Get lecture code
 1. Install [Git](https://git-scm.com/downloads)
-1. With a terminal app (on Windows, Git Shell is strongly recommended), fetch this repo's source: `git clone https://github.com/kylepjohnson/nyc_postdoc_lecture.git`
+1. With a terminal app (on Windows, Git Bash is strongly recommended), fetch this repo's source: `git clone https://github.com/kylepjohnson/nyc_postdoc_lecture.git`
 1. Change into the repo (`cd lecture_nyc_ascent`) and start the Jupyter notebook (`jupyter notebook`)
 
 
