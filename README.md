@@ -1,6 +1,6 @@
 # About
 
-Notebooks for a lecture to Postdocs at [NYC Ascent](http://www.nycascent.org/). These focus on some fundamentals of natural language processing (NLP) and how to leverage machine learning for insights into human language.
+Notebooks for a lecture to Postdocs at [NYC Ascent](http://www.nycascent.org/) by Cesar Koirala, Kyle P. Johnson, and Ken Bame, on 26 February 2016. These focus on some fundamentals of natural language processing (NLP) and how to leverage machine learning for insights into human language.
 
 
 # Setup
