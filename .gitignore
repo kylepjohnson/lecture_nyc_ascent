@@ -2,3 +2,4 @@
 config.py
 feature_tables
 *.npy
+.idea
